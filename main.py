@@ -14,7 +14,7 @@ BOT_TOKEN = '7407495360:AAFZEskbiSlbEPlIgcDzqXnHXUipIWKXZaE'
 
 
 async def start(update, context):
-    photo_path = '1.jpg'  # например, фото зала 1
+    photo_path = '1.jpg' 
     await update.message.reply_photo(photo=open(photo_path, 'rb'), caption='''🏛 Вход:
 Добро пожаловать в музей!
 Пожалуйста, сдайте верхнюю одежду в гардероб. 🧥
